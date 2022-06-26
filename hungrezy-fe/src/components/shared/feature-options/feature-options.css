@@ -1,0 +1,21 @@
+.features {
+    padding: 16px 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .feature-item {
+    padding: 8px;
+    display: flex;
+    background-color: var(--primary-bg);
+    color: var(--feature-text);
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    margin: 10px 10px 10px 0px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .feature-name {
+    margin-left: 5px;
+  }
